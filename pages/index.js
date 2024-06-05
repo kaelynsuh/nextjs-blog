@@ -1,10 +1,11 @@
 import Head from "next/head";
+import Layout from "./layout";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
     <div className={styles.container}>
-      <Head>
+      {/* <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
         <meta property="og:title" content="Next.js blog" />
@@ -13,7 +14,9 @@ export default function Home() {
           property="og:image"
           content="https://www.lilsnack.co/assets/home-thumbnail.jpg"
         />
-      </Head>
+      </Head> */}
+
+      <Layout />
 
       <main>
         <h1 className={styles.title}>
