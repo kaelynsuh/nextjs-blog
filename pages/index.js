@@ -17,6 +17,8 @@ export default function Home() {
       </Head> */}
 
       <Layout />
+      <Layout />
+      <Layout />
 
       <main>
         <h1 className={styles.title}>
