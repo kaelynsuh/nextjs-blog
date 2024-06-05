@@ -12,6 +12,7 @@ export default function Layout() {
           property="og:image"
           content="https://www.lilsnack.co/assets/home-thumbnail.jpg"
         />
+        <meta property="og:image:type" content="image/png" />
       </Head>
       <h2>HELLO</h2>
     </>
